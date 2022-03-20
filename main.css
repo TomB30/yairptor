@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(255, 119, 167, 1) 0%, rgba(253, 155, 106, 1) 100%);
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+body > * {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.356);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.fullname-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: white;
+    font-size: 26px;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button > span {
+    margin-top: -2px;
+}
+
+h1 {
+    padding: 60px 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.info-container {
+    margin: 10px 20px;
+}
+
+.ids-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ids-container .info-container {
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+
+.icon-sentence {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.icon-sentence img {
+    width: 18px;
+    margin: 0 0 0 10px;
+    opacity: 0.8;
+}
+
+.end-date {
+    flex: 1;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+}
+
+.end-date .txt {
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    background-color: #ffbbd4;
+}
+
+.clock-wrapper {
+    background-color: white;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.clock-wrapper img {
+    width: 26px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.idf-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    z-index: -1;
+    opacity: 0.2;
+    transform: translate(-50%,-50%);
+}
